@@ -16,9 +16,9 @@ public class Main {
         email = reader.readLine();
         Matcher matcher = pattern.matcher(email);
         System.out.println("содержит строка email адрес? ");
-        if (matcher.find()){
+        if (matcher.find()) {
             System.out.println("да");
-        }else {
+        } else {
             System.out.println("нет");
         }
     }
